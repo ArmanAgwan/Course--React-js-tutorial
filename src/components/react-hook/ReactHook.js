@@ -11,6 +11,7 @@ import ErrorBoundary from "./ErrorBoundary";
 import ClickCounter from "./ClickCounter";
 import HoverCounter from "./HoverCounter";
 import ClickCounterTwo from "./ClickCounterTwo";
+import HoverCounterTwo from "./HoverCounterTwo";
 
 class ReactHook extends Component {
   render() {
@@ -21,7 +22,9 @@ class ReactHook extends Component {
               <Hero heroName="Superman" />
               <Hero heroName="Joker" /> */}
         {/* </ErrorBoundary>   */}
-        <ClickCounter />
+        <ClickCounterTwo />
+        <HoverCounterTwo />
+        {/* <ClickCounter /> */}
         {/* <HoverCounter /> */}
         {/* <ClickCounterTwo /> */}
         {/* <PortalDemo /> */}
