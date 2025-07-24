@@ -12,6 +12,7 @@ import ClickCounter from "./ClickCounter";
 import HoverCounter from "./HoverCounter";
 import ClickCounterTwo from "./ClickCounterTwo";
 import HoverCounterTwo from "./HoverCounterTwo";
+import User from "./User";
 
 class ReactHook extends Component {
   render() {
@@ -24,6 +25,7 @@ class ReactHook extends Component {
         {/* </ErrorBoundary>   */}
         <ClickCounterTwo />
         <HoverCounterTwo />
+        <User render ={(isLoggedIn) => isLoggedIn ? 'Vishwas' : 'Guest'} />
         {/* <ClickCounter /> */}
         {/* <HoverCounter /> */}
         {/* <ClickCounterTwo /> */}
